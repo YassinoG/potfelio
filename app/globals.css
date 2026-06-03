@@ -4,6 +4,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-space-grotesk);
+  --breakpoint-xs: 480px;
 }
 
 :root {
@@ -119,10 +120,36 @@ body {
   margin-top: 14px;
 }
 
-/* ── Project card variants ──────────────────────────────── */
+/* ── Color variants (shared by Projects, Experience) ────── */
 .proj-badge-cyan   { color: #00D4FF; background: rgba(0,212,255,0.07);  border: 1px solid rgba(0,212,255,0.22); }
 .proj-badge-violet { color: #A78BFA; background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.22); }
 .proj-badge-green  { color: #00FF9F; background: rgba(0,255,159,0.07);  border: 1px solid rgba(0,255,159,0.22); }
+
+/* Experience timeline variants */
+.exp-dot-cyan   { border-color: #00D4FF; box-shadow: 0 0 10px rgba(0,212,255,0.35); }
+.exp-dot-violet { border-color: #7C3AED; box-shadow: 0 0 10px rgba(124,58,237,0.35); }
+.exp-dot-green  { border-color: #00FF9F; box-shadow: 0 0 10px rgba(0,255,159,0.35); }
+
+.exp-pip-cyan   { background: #00D4FF; }
+.exp-pip-violet { background: #7C3AED; }
+.exp-pip-green  { background: #00FF9F; }
+
+.exp-company-cyan   { color: #00D4FF; }
+.exp-company-violet { color: #7C3AED; }
+.exp-company-green  { color: #00FF9F; }
+
+.exp-bullet-cyan   { background: #00D4FF; }
+.exp-bullet-violet { background: #7C3AED; }
+.exp-bullet-green  { background: #00FF9F; }
+
+.exp-tag-cyan   { color: #00D4FF; background: rgba(0,212,255,0.07);  border: 1px solid rgba(0,212,255,0.16); }
+.exp-tag-violet { color: #7C3AED; background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.16); }
+.exp-tag-green  { color: #00FF9F; background: rgba(0,255,159,0.07);  border: 1px solid rgba(0,255,159,0.16); }
+
+/* Experience timeline line */
+.exp-timeline-line {
+  background: linear-gradient(180deg, rgba(0,212,255,0.35) 0%, rgba(124,58,237,0.35) 60%, transparent 100%);
+}
 
 /* ── Dividers ───────────────────────────────────────────── */
 .divider-cyber {

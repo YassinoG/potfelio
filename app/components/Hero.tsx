@@ -110,18 +110,18 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.55, delay: 0.4 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+          className="flex flex-col xs:flex-row gap-3 justify-center mb-12 px-4 sm:px-0"
         >
           <a
             href="#contact"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#00D4FF] text-[#050B18] font-heading font-semibold rounded-sm text-sm tracking-wide transition-all duration-200 hover:bg-[#00D4FF]/90 hover:shadow-[0_0_32px_rgba(0,212,255,0.4)]"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#00D4FF] text-[#050B18] font-heading font-semibold rounded-sm text-sm tracking-wide transition-all duration-200 hover:bg-[#00D4FF]/90 hover:shadow-[0_0_32px_rgba(0,212,255,0.4)] w-full xs:w-auto"
           >
             <Mail size={15} /> Get In Touch
           </a>
           <a
             href="/YASSINE-GOUTI-CV-25.pdf"
             download
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-[#00D4FF]/30 text-[#00D4FF] font-heading font-semibold rounded-sm text-sm tracking-wide transition-all duration-200 hover:bg-[#00D4FF]/10 hover:border-[#00D4FF]"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-[#00D4FF]/30 text-[#00D4FF] font-heading font-semibold rounded-sm text-sm tracking-wide transition-all duration-200 hover:bg-[#00D4FF]/10 hover:border-[#00D4FF] w-full xs:w-auto"
           >
             <Download size={15} /> Download CV
           </a>
